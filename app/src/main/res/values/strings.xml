@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="options">
+        <item>Kitchen Appliance</item>
+        <item>building materials</item>
+        <item>outdoors</item>
+    </string-array>
+    <string name="app_name">HomeDecorAppFirebase </string>
+    <string name="open_nav"> Open Navigation Drawer</string>
+    <string name="close_nav">close Navigation Drawer</string>
+    <string name="email">Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

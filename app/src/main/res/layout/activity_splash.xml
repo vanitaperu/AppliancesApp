@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3E3F8"
+    tools:context=".SplashActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn1c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="406dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:text="Home Appliances"
+        android:textColor="#0B73C6"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.711"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1c"
+        android:layout_width="263dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="300dp"
+        android:background="#41C0FA"
+        android:text="Enter"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

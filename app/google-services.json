@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "523018265702",
+    "project_id": "appliancesapp-87ba5",
+    "storage_bucket": "appliancesapp-87ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523018265702:android:83ea1bd50406582c5f79a7",
+        "android_client_info": {
+          "package_name": "com.example.appliancesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0D-TL9nyOjbSp8Y_OB7JtgrluDvZA84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
